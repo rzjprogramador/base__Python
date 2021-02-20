@@ -8,15 +8,18 @@ Obter imc da pessoa com 2 casas decimais (peso e na altura da pessoa)
 Exibir um texto com todos valores na tela com F-Strings (com as chaves)
 
 """
-nome = str(input('Qual seu nome ? '))
-ano_atual = int(input('Em que ano estamos ? '))
-ano_nascimento = int(input('em que ano você nasceu ? '))
-peso = int(input('Qual o seu peso ? '))
-altura = float(input('Qual a sua altura ? '))
-idade = ano_atual - ano_nascimento
-imc = peso / (altura ** 2)
+nome = input('Qual seu nome ? ')
+ano_atual = input('Em que ano estamos ? ')
+ano_nascimento = input('em que ano você nasceu ? ')
+peso = input('Qual o seu peso ? ')
+altura = input('Qual a sua altura ? ')
+
+idade = int(ano_atual) - int(ano_nascimento)
+imc = int(peso) / (float(altura) ** 2)
 
 print(f'''
 {nome} tem {idade} anos, pesa {peso} kilos,
 tem {altura} de altura e está com IMC de {imc:.2f}
 ''')
+
+# Obs: pode converter a string que vem do input por padrao na parte da logica
