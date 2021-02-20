@@ -16,12 +16,15 @@ n = 1
 n += 1
 print(n)
 
+
 # FORMAT COM O COMANDO PRINT com o f antes das aspas
 print(f'O Sr. {nome} com o sobrenome {sobrenome} tem {idade} anos de idade ')
+
 
 # ESCAPES NO TEXTO::
 print(r"Vai escapar o /n que é um comando quebra-linha  com o caractere r")
 print('Vai "escapar" com "aspas" simples escapa duplas e vice versa')
+
 
 # PULANDO LINHAS
 # PRINT : PULAR LINHAS COM 3 ASPAS ANTES E DEPOIS DO TEXTO
