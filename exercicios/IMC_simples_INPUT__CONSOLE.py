@@ -23,3 +23,5 @@ tem {altura} de altura e está com IMC de {imc:.2f}
 ''')
 
 # Obs: pode converter a string que vem do input por padrao na parte da logica
+
+# A função input sempre retorna uma string, independente do que for digitado pelo usuário.
