@@ -8,9 +8,9 @@ else:
     print('Invalido')
 
 
-# Escopo ::: Escopo começa em 2 ponto : e termina na ultima linha vazia sem nada.
+# Escopo ::: Escopo começa em 2 ponto : e termina na ultima linha vazia.
 
 # Identação super importante pra rodar o codigo
 # if == Se
-# elif == senao se (Posso repetir quanto quiser esta opção sempre dara noav possibilidade)
+# elif == senao se (Posso repetir quanto quiser esta opção )
 # else == senão >>> ultima opção do if
