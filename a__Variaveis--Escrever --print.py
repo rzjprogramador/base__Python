@@ -24,4 +24,9 @@ print(r"Vai escapar o /n que é um comando quebra-linha  com o caractere r")
 print('Vai "escapar" com "aspas" simples escapa duplas e vice versa')
 
 # PULANDO LINHAS
-print()
+# PRINT : PULAR LINHAS COM 3 ASPAS ANTES E DEPOIS DO TEXTO
+print(""" 
+Quero pular
+essa linha
+e essa também 
+""")

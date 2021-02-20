@@ -26,9 +26,4 @@ print('Era uma string agora é : ', type(int('10')))
 print('Era um inteiro agora é : ', type(float(90)))
 print('Era um inteiro agora é : ', type(bool(0)))
 
-# PRINT : PULAR LINHAS COM 3 ASPAS ANTES E DEPOIS DO TEXTO
-print(""" 
-Quero pular
-essa linha
-e essa também 
-""")
+
