@@ -11,9 +11,9 @@ Exibir um texto com todos valores na tela com F-Strings (com as chaves)
 nome = 'Reinaldo'
 ano_atual = 2021
 ano_nascimento = 1977
-idade = ano_atual - ano_nascimento
 peso = 90
 altura = 1.90
+idade = ano_atual - ano_nascimento
 imc = peso / (altura ** 2)
 
 print(f'''
