@@ -1,7 +1,7 @@
 usuario = input('Digite seu nome de usuario : ')
 senha = input('Escolha uma senha : ')
 
-# usuarios ja definidos
+# usuarios ja existente para Comparacao
 usuario_bd = 'Reinaldo'
 senha_bd = '123'
 
