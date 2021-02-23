@@ -48,3 +48,11 @@ Quero pular
 essa linha
 e essa também 
 """)
+
+# STRING MULTIPLICADA
+texto2 = 'a'
+print(texto2 * 4)
+
+texto3 = 'Ipsum Lorem '
+print(texto3 * 5)
+

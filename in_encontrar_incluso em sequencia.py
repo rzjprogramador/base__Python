@@ -1,4 +1,4 @@
-# Operador in -- Vêr se está incluso
+# Operador in -- Pesquisar se está incluso em uma sequencia
 
 nome = 'Gustavo'
 
