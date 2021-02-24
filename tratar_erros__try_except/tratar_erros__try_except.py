@@ -5,7 +5,7 @@ try:
     num1 = float(num1)
     num2 = float(num2)
 
-    print(f'Voce digitou {num1} + {num2} :: A soma é: {num1 + num2}')
+    print(f'Voce digitou {num1} + {num2} A soma é: {num1 + num2}')
 except:
     print('ERRO - SÓ É ACEITO NUMEROS')
 
