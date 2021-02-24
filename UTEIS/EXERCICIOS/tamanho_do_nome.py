@@ -15,7 +15,8 @@ escreva 'Seu nome é muito grande'
 
 nome = input('Digite seu Nome : ')
 
-# Sempre que for usar uma var mais que uma vez jogue o valor em outra var
+# Sempre que for usar um metodo em uma var mais que uma vez
+# jogue o valor em outra var
 tamanho_nome = len(nome)
 
 if tamanho_nome <= 4:
