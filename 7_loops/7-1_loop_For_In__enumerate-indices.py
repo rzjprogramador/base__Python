@@ -12,6 +12,9 @@ print('-------------------------‐-----------')
 # -------------------------‐-----------------------
 
 # QUANDO QUÉR PEGAR O INDICE JUNTO USAR O ENUMERATE
+# Sintaxe: 
+# for <indice> , <valoresPegaeMostra> in  enumerate(<destaSequencia>):
+#  print(indice, valoresPegaeMostra)
 
 for i, valores in enumerate(sequencia1):
     print(i, valores)
