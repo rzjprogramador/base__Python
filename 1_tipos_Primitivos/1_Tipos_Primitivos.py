@@ -1,9 +1,9 @@
 # -----  TIPO DE DADOS PRIMITIVOS  ----------------------------------------
 
-# int   --- inteiro ---  VALORES_INICIAIS:  0  -  exemplos: 43 10 -10 0 2021
-# str   --- string  ---  VALORES_INICIAIS:  '' -  exemplos: 'Assim' == "Assim"
-# float --- real/decimal VALORES_INICIAIS:  0.0 -  exemplos: 4.3 -4.3 0.30
-# boll  --- booleano     VALORES_INICIAIS:   True -  exemplos: True / False
+# int   -- inteiro ---  VALORES_INICIAIS:  0    -  exemplos: 43 10 -10 0 2021
+# str   -- string  ---  VALORES_INICIAIS:  ''   -  exemplos: 'Assim' ou "Assim"
+# float -- real/decimal VALORES_INICIAIS:  0.0  -  exemplos: 4.3 -4.3 0.30
+# boll  -- booleano     VALORES_INICIAIS:  True -  exemplos: True / False
 
 # VALORES INICIAIS NUMERICOS
 # 0 = False
@@ -73,4 +73,3 @@ print('Era um inteiro agora é : ', type(bool(0)))
 
 
 # Converter float em inteiro :: float(<NumeroInteiro>) -- ex: float(1)
-
