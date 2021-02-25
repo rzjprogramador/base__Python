@@ -54,8 +54,8 @@ for elementos in lista:
     print(elementos)
     # posso pegar elementos e manipula-los
 
-# Pegar letra por letra da string
 
+# Pegar letra por letra da string
 for letra in nome:
     print(letra)
     # posso pegar as letras e manipula-las
