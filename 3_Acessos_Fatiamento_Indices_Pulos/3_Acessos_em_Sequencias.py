@@ -47,3 +47,14 @@ print(nova_lista)
 # Sem colocar nada a direita ou esquerda pega inteiro sem mudar nada
 nova_inteira = lista[:]
 print(nova_inteira)
+
+# Dar um for in ... para manipular elemento por elemento
+for elementos in lista:
+    print(elementos)
+    # posso pegar elementos e manipula-los
+
+# Pegar letra por letra da string
+
+for letra in nome:
+    print(letra)
+    # posso pegar as letras e manipula-las
