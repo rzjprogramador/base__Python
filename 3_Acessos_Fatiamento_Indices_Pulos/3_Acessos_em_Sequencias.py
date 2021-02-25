@@ -48,6 +48,7 @@ print(nova_lista)
 nova_inteira = lista[:]
 print(nova_inteira)
 
+
 # Dar um for in ... para manipular elemento por elemento
 for elementos in lista:
     print(elementos)
