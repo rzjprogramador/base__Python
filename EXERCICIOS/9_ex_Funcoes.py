@@ -50,7 +50,7 @@ ap = aumento_percentual(80, 100)
 print(ap)
 
 '''
-3- Fizz Buzz - Se o aprametro da funcao dor divisivel por 3 :retorne Fizz
+3- Fizz Buzz - Se o parametro da funcao dor divisivel por 3 :retorne Fizz
 Se o parametro da funcao for divisivel por 5 , retorne Buzz
 Se o parametro da função for divisivel por 5 e 3 retorne FizzBuzz
 Caso contrario retorne o numero invalido !
@@ -80,3 +80,40 @@ print(fb(22))
 4- Crie uma função que recebe uma funcao2 como parametro 
 e retorna o valor da funcao2 executada
 '''
+
+
+def ola_mundo():
+    return 'Olá mundo'
+
+
+def mestre(funcao):
+    return funcao()
+
+
+executando = mestre(ola_mundo)
+print(executando)
+
+
+'''
+4- Crie uma função que recebe uma funcao2 como parametro 
+e retorna o valor da funcao2 executada
+Faça a funcao1 executar duas funcoes que recebam um numero diferente de argumentos.
+'''
+
+
+def mestre1(funcao, *args, **kwargs):
+    return funcao(*args, **kwargs)
+
+
+def fala_oi(nome):
+    return f'Oi {nome}'
+
+
+def saudacao(nome, saudacao):
+    return f'{saudacao} {nome}'
+
+
+executando = mestre1(fala_oi, 'Reinaldo')
+executando2 = mestre1(saudacao, 'Reinaldo', saudacao='Bom dia')
+print(executando)
+print(executando2)
