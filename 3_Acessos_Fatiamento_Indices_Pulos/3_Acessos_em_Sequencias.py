@@ -59,3 +59,9 @@ for elementos in lista:
 for letra in nome:
     print(letra)
     # posso pegar as letras e manipula-las
+'''
+FUNÇAO GET() VC PODE ACESSAR CHAVES OU VALORES DE PROPRIEDADES
+ <variavel ou arguemnto>.get()
+ 
+ É O MESMO DE <variavel ou arguemnto>[<POSICAO>]
+'''
