@@ -101,8 +101,8 @@ print(var2('E colocar o valor da funcao f - aqui'))
    - Vc recebe pra adicionar valor e 
    - Atribui valor na invocacao
 
-   É o que vc tem de pegar 
-   _ Pra mim pegar isso , preciso disso e disso
+   - É o que vc tem de pegar 
+      _ Pra mim pegar isso , preciso disso e disso
    - exemplo:
    pegarEmail(PRECISO DE : email, senha)
    buscarUsuario(PRECISO DE : id, nome)

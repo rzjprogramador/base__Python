@@ -31,9 +31,16 @@ print(var1[0], var1[1])
 
 
 '''
+*ARGS == (ILIMITADOS ARGUMENTOS SEM VALUE) -- NA EXECUÇÃO RESULTA = TUPLAS
+**KWARGS (ILIMITADOS ARGS NOMEADOS COM VALUE)- NA EXECUÇÃO RESULTA = DICIONARIO
+
+'''
+
+
+'''
 *args == ARGUMENTOS ILIMITADOS
 QUANDO NÃO SABEMOS QUANTOS ARGUMENTOS TEREMOS
-com o * ASTERISTICO VC FAZ UM ENPACOTAMENTO --GURDA UM ILIMITADO
+com o * ASTERISTICO VC FAZ UM EMPACOTAMENTO --GURDA UM ILIMITADO
 
 
 '''
@@ -47,3 +54,24 @@ def func3(*args):
 
 
 func3(1, 2, 3, 4, 5)  # Tupla que esta sendo referenciada na func3
+
+
+'''
+**kwargs -- nome usado por convenção pode ser outro
+**kwargs -- = podemos passar ILimitados argumentos nomeados por param
+na invocação ele resulta em um Divionario Hash/Objeto 
+com os valores dos argumentos nomeados
+'''
+
+
+def func4(*args, **kwargs):
+    print(args)
+    print(kwargs)
+
+
+lista1 = [1, 2, 3]
+lista2 = [10, 20, 30]
+
+
+func4(*lista1, *lista2, nome='Reinaldo', sobrenome='Zacharias')
+
