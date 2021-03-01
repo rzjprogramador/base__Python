@@ -71,12 +71,27 @@ print(var(2, 2))
 
 '''
 RETORNO
+- em Python se a funcao nao encontrar um return ela retorna None
 - Quase sempre teremos return na funcao e a atribuiremos a uma var funcional 
 
 Sempre que tiver return é pra retornar para uma var o valor da funcao.
 Entao pra invocar essa funcao agora tem que atribuir esta funcao a uma 
 nova var que tera o valor da funcao...sera uma VAR_FUNCIONAL
  '''
+
+# Passando Função para dentrod e Função e atribuindo a var
+
+
+def f(var):
+    print(var)
+
+
+def dumb():
+    return f
+
+
+var2 = dumb()
+print(var2('E colocar o valor da funcao f - aqui'))
 
 
 '''
