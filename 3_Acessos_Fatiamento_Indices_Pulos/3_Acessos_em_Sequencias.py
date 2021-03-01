@@ -65,3 +65,9 @@ FUNÇAO GET() VC PODE ACESSAR CHAVES OU VALORES DE PROPRIEDADES
  
  É O MESMO DE <variavel ou arguemnto>[<POSICAO>]
 '''
+
+'''
+VERIFICAÇAO SE NÃO É NULO OU NONE
+<variavel> is not None:
+
+'''

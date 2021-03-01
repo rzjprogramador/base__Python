@@ -68,10 +68,18 @@ def func4(*args, **kwargs):
     print(args)
     print(kwargs)
 
+    # idade nao existe nos meus args, entao tratar a busca pra nao dar erro
+    idade = kwargs.get('idade')
+
+    if idade is not None:
+        print(idade)
+    else:
+        print('Idade não existe.')
+    # Se quiser omitir o None só retirar o else
+
 
 lista1 = [1, 2, 3]
 lista2 = [10, 20, 30]
 
 
 func4(*lista1, *lista2, nome='Reinaldo', sobrenome='Zacharias')
-
