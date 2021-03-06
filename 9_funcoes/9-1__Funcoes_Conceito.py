@@ -94,6 +94,16 @@ var2 = dumb()
 print(var2('E colocar o valor da funcao f - aqui'))
 
 
+# Ao retornar um valor na funcao, atribua a msm a uma varFuncional
+
+def fala_oi():
+    return f'Oi'
+
+
+usa = fala_oi()
+print(usa)
+
+
 '''
    # PARAMETROS :
 
