@@ -64,3 +64,14 @@ print(s5)
 # Resumindo pega os que nao estao nos 2 sets --NÃO TEM ORDEM
 s6 = s11 ^ s22
 print(s6)
+
+l33 = ['Gustavo', 'Victor', 'Leonardo']
+l34 = ['Victor', 'Gustavo', 'Leonardo', 'Gustavo',
+       'Gustavo', 'Gustavo', 'Gustavo', 'Gustavo', ]
+
+l33 = set(l33)
+l34 = set(l34)
+
+# Mostra que mesmo com duplicados e fora de ordem sao iguais
+# depois do casting para set
+print(l33 == l34)
