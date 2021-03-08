@@ -75,3 +75,7 @@ l34 = set(l34)
 # Mostra que mesmo com duplicados e fora de ordem sao iguais
 # depois do casting para set
 print(l33 == l34)
+
+# unindo as sets com | union
+l35 = l33 | l34
+print(l35)
