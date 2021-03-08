@@ -51,3 +51,24 @@ ex5 = dict(ex5)
 
 # Acessando valor 2 invertido do agora dicionario
 print(ex5['valor2'])
+
+# Criar uma lista com 100 valores com range
+l3 = list(range(100))
+
+# Divisiveis por 2
+ex6 = [v for v in l3 if v % 2 == 0]
+print(ex6)
+
+# Usando 2 if -- Pegar todos divisiveis por 3 e por 8
+ex7 = [v for v in l3 if v % 3 == 0 if v % 8 == 0]
+print(ex7)
+
+# Usando o else :: senao -- Usa o else ao contrario na expressao
+# v Se v % 3 == 0 ..SENAO 'Nao é' para v em lista3
+ex8 = [v if v % 3 == 0 else 'Não é' for v in l3]
+print(ex8)
+# vai mostrar nos que não é o que definiu no else
+
+# 2 Condicoes v divisivel por 3 e 8 para o senao 'QualquerValor'
+ex9 = [v if v % 3 == 0 and v % 8 == 0 else 'Qualquervalor' for v in l3]
+print(ex9)
