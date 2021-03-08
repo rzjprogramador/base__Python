@@ -3,11 +3,14 @@ LIST COMPREHENSION == COMPREENSÃO DE LISTA
 Forma otimizada de fazer uma interação varrer
 e aplicar modificações na lista
 
-# SINTAXE: 
+# SINTAXE OPERAÇÃO MUDANÇA : 
 # [<Operacao> for interar var da operacao in listaAlvo]
 # exemplo : [v.replace('a', '@') for v in l2]
 # + exemplo : [v * 2 for v in l1]
 
+
+# SINATXE CONDIÇÕES LOGICAS
+[v for v in <listaAlvo> <Logica-COndicional>> if v % 2 == 0>]
 '''
 l1 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
